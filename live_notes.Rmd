@@ -1,0 +1,47 @@
+---
+title: "MUSA master calss"
+subtitle: "social science students how to use data science -- mapbox class with Kyle Walker"
+date:  "Oct. 9, 20202"
+output: html_notebook
+---
+
+google MUSA practicum
+
+virtual open house on 10/26
+
+sponsored by mapbox
+
+Featuring **Kyle Walker**
+
+
+## Background
+
+an introduction by Ken Steif.
+
+American factfinder supported the American Census -- released about 20 years ago.  2010 American factfinder was less than ideal.  Summer of 2017, released tidycensus package.
+
+
+## Using mapbox for spatial data science in r
+
+Ground your work in research & open source software
+
+Kyle's initial work focused on qualitative research.  Quantitative work felt laborious.
+
+### Conversation
+
+- _kyle_:  clicking around in ArcMAP
+- **friend**:  "how do you ever remember what you do?!"
+
+Kyle didn't learn how to use R until after grad school and a few years after becoming a professor in 2008.  Was largely using ArcGIS for visualization.  Stat analysis was being done in SPSS.  Because of teaching, got started thinking about R.  
+
+Eventually came across the [HTML widgets](http://www.htmlwidgets.org/) ecosystem.  **Realization**, R can enable student/researcher/teacher to orchestrate various other technologies.  e.g. D3.  Along comes [tidyverse](https://tidyverse.org) and [sf](https://r-spatial.github.io/sf/)
+
+> R is the ultimate user interface -- Hadly Whickham
+
+### sidebar
+
+- modularize code
+- shapefile caching  (a tigris feature)
+- using natural language instead of FIPS codes:  e.g. "all **tracts** for **Dallas** county"
+
+
