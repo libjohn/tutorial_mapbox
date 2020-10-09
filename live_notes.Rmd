@@ -13,6 +13,11 @@ sponsored by mapbox
 
 Featuring **Kyle Walker**
 
+## Resources:
+
+- https://walker-data.com/MUSAmasterclass/tutorial/
+- https://github.com/walkerke/MUSAmasterclass
+
 
 ## Background
 
@@ -43,5 +48,34 @@ Eventually came across the [HTML widgets](http://www.htmlwidgets.org/) ecosystem
 - modularize code
 - shapefile caching  (a tigris feature)
 - using natural language instead of FIPS codes:  e.g. "all **tracts** for **Dallas** county"
+
+## 3 development goals
+
+- help r users incorporate mapbox web services into their maps / sf-based analysis projects.
+- combine mapbox services when appropriate
+- use r as a bridge between analysts' data pipelines & visualization projects (with leaflet, tippecanoe, Mapbox Studio, etc.)
+
+## Tutorial
+
+Using Mapbox API in R
+
+> https://walker-data.com/MUSAmasterclass/tutorial/
+
+
+
+## Look for
+
+**`tidygeocoding`** package
+
+
+## questions
+
+1. Longer than 60 minutes isochrone?
+
+A:  Try other routing engines:
+
+- graphhopper
+- open_trip_planner  (ropensci ropentripplanner)
+- valhalla
 
 
